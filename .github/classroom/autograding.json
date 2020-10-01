@@ -1,0 +1,74 @@
+{
+  "tests": [
+    {
+      "name": "Task1",
+      "setup": "",
+      "run": "python3 task1.py",
+      "input": "",
+      "output": "2\r\n4\r\n6\r\n8\r\n10\r\n12\r\n14\r\n16\r\n18\r\n20",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "Task2 py",
+      "setup": "",
+      "run": "python3 task2.py",
+      "input": "admin\r\n12345",
+      "output": "Access granted",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "task3",
+      "setup": "",
+      "run": "python3 task3.py",
+      "input": "1.3\r\n4",
+      "output": ".*That is not an even integer.*[\\r\\n].*That is an even integer.*",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "Problem 1",
+      "setup": "",
+      "run": "python3 problem1.py",
+      "input": "admin\r\n12345",
+      "output": "Access granted",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Problem1b",
+      "setup": "",
+      "run": "python3 problem1.py",
+      "input": "bob\r\n1234\r\nsally\r\n1234\r\ncarl\r\n1234",
+      "output": ".*Access denied.*[\\r\\n].*Access denied.*[\\r\\n].*Access denied.*",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Problem 2",
+      "setup": "",
+      "run": "python3 problem2.py",
+      "input": "5",
+      "output": "5 10 15 20 25 30 35 40 45 50 55 60 ",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "Problem 3",
+      "setup": "",
+      "run": "python3 problem3.py",
+      "input": "",
+      "output": "1 1 2 3 5 8 13 21 34 55 89 144",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    }
+  ]
+}
