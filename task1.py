@@ -16,3 +16,10 @@ Example:
 10
 ...
 """
+a=2
+while True:
+    print(a)
+    a=a+2
+    if a>20:
+        break
+    
