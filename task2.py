@@ -20,8 +20,8 @@ b=""
 
 while "admin"!= a or "12345"!=b:
 
-    a=input("username ")
-    b=input("password ")
+    a=input("username ").strip()
+    b=input("password ").strip()
     if "admin"!= a or "12345"!=b:
         print("Access denied")
 print("Access Granted")
