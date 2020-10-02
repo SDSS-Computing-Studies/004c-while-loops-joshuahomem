@@ -22,5 +22,5 @@ while True:
     a=b
     b=c
     print(c)
-    if c>55:
+    if c>100:
         break
