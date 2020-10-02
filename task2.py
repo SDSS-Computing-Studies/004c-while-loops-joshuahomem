@@ -24,4 +24,4 @@ while "admin"!= a or "12345"!=b:
     b=input("password ").strip()
     if "admin"!= a or "12345"!=b:
         print("Access denied")
-print("Access Granted")
+print("Access granted")
