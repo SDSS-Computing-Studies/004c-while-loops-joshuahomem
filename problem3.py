@@ -15,12 +15,12 @@ Example:
 """
 a=1
 b=1
-print(1)
-print(1)
+print(str(a)+" " ,end='')
+print(str(b)+" " ,end='')
 while True:
     c=a+b
     a=b
     b=c
-    print(c)
+    print(str(c)+" ", end='')
     if c>100:
         break
